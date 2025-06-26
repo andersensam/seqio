@@ -56,7 +56,7 @@ setuptools.setup(
         'tensorflow-text',
         # Ping to a specific version to avoid endless backtracking during
         # pip dependency resolution.
-        'tfds-nightly==4.9.2.dev202308090034',
+        'tfds-nightly==4.9.9.dev202506260045',
     ],
     requires_python='>=3.9',
     extras_require={
